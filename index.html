@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Using HTML & CSS | JustinShao</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="#home" class="logo">Justin Shao</a>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#work">Work Experience</a>
+            <a href="#honors">Honors & Awards</a>
+            <a href="#affiliations">Clubs & Affiliations</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>  
+    </header>
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="Profile_picture.JPG" alt="">
+        </div>
+        <div>
+            <h1>Hi, I'm <span>Justin</span></h1>
+            <p> I'm an a Second Year Electrical and Computer Engineer at Santa Clara University. 
+                I have technical experience working with AWS Services and various AI models. 
+                In addition, I have hackathon experience where I was able to combine my strong academic skills 
+                along with my leadership to lead an entire project. Through clubs like Formula SAE and AI Collaborate,
+                and organizations like Boy Scouts and GLIFY, I'm able to combine both my passion for engineering and 
+                the environment. In the future, I aim to be in a long-term development team, working to create technological 
+                advancements.
+            </p>
+            <div class="home-social-icons">
+            <a href="https://www.linkedin.com/in/justinwshao" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/dragonjws" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div>
+                <h1>Click here to download my resume</h1>
+                <a href="https://drive.google.com/uc?export=download&id=1A7JuQuBQDU8_jI_AcnE3Ah8g1dyAJlT-" download class="resume-button">Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div>
+            <h2>Full-Stack Projects</h2>
+                <div>
+                <h3>AI Internal Assistant Bot - AI Collaborate X BEACH</h3>
+                <p>Designed and implemented an AI Internal Assistant Bot that allows users in the BEACH Consulting Club at Santa 
+                   Clara University to ask questions about certain legal documents and receive accurate, context-aware responses. 
+                   Implemented a web scraper to extract and preprocess text from legal documents, and developed a cloud-native 
+                   backend on AWS leveraging Amazon S3 to store and manage document data. Utilized RAG architecture to vectorize 
+                   document data to generate accurate responses to user queries, and integrated the bot into a user-friendly interface for seamless interaction.
+                </p>
+                <div class="AIC-img">
+                    <img src="AIC.webp" alt="">
+                </div>
+                <h3><div class="AIC-social-icons">
+                    <a href="https://github.com/dragonjws/AIC-BEACH-Internal-Tools-Project#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div></h3>
+                </div>
+                <div>
+                <h3>PDF Version Saver - Adobe Hackathon</h3>
+                <p>Developed a version control system that enables persistent storage and versioned visualization 
+                   of PDF and image edits through a robust, cloud-based backend. Designed and implemented RESTful API workflows 
+                   using Postman for validation and integration, with Amazon DynamoDB handling low-latency storage of user edits 
+                   and document metadata, and AWS infrastructure supporting secure, scalable data persistence. Awarded 2nd Best Overall.
+                </p>
+                <div class="Checkpoint-img">
+                    <img src="Checkpoint.jpg" alt="">
+                </div>
+                <h3><div class="Checkpoint-social-icons">
+                    <a href="https://github.com/dragonjws/adobe-checkpoint" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://devpost.com/software/adobe-checkpoint" target="_blank"><i class="fa-solid fa-code"></i></a>
+                </div></h3>
+                </div>
+                <div>
+                <h3>AI Schedule Builder - AWS X INRIX Hackathon</h3>
+                <p>Designed and implemented an AI Schedule builder that generates multiple feasible 
+                   academic schedules based on user-defined constraints and preference weighting. Deployed
+                   a cloud-native backend on AWS, leveraging Amazon Bedrock (Claude 4.5 Sonnet) for schedule generation, 
+                   Amazon S3 for scalable storage of course catalogs and section metadata, and 
+                   DynamoDB for low-latency persistence of user profiles, constraints, and generated schedule variants. 
+                </p>
+                <div class="Classify-img">
+                    <img src="Classify.jpg" alt="">
+                </div>
+                </div>
+                <h3><div class="Classify-social-icons">
+                <a href="https://github.com/dragonjws/Classify_aws_hackathon" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://devpost.com/software/clarify-a-class-scheduler" target="_blank"><i class="fa-solid fa-code"></i></a>
+                </div></h3>
+            <h2>Hardware Projects
+                <h3>Automated Soccer Goal Scoring Machine - SCU Robot Show</h3>
+                <p>Engineered an autonomous soccer-goalie robot by designing custom electronic circuits and integrating ultrasonic distance 
+                   sensors with LED-based status signaling, programmed in C using the Arduino platform for real-time object detection and response. 
+                   Implemented control logic to process sensor data, trigger directional movement and visual feedback, and ensure reliable system 
+                   performance under dynamic gameplay conditions. Awarded 1st place for its technical execution and innovation.
+                </p>
+                <div class="Soccer-social-icons">
+                    <a href="Scoring Goal Machine.MOV" target="_blank"><i class="fa-solid fa-video"></i></a>
+                </div>
+            </h2>
+        </div>
+    </section>
+
+    <section id="leadership" class="section">
+        <h2>Leadership Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">March 2026-Present</div>
+                <div class="timeline-content">
+                    <h3>STEAM Chair</h3>
+                    <div class = "subheading">Alpha Kappa Psi Professional Business Fraternity | Santa Clara, CA</div>
+                    <p> Responsible for hosting quarterly STEAM (Science, Technology, Engineering, Arts, and Mathematics) workshops for a professional business fraternity of 100+ members, 
+                        including planning and executing a successful engineering workshop that introduced over 50 members to foundational technical concepts and practical applications. 
+                        Additionally, organized a resume workshop that provided personalized feedback to 30+ members, resulting in improved resume quality and increased confidence in job applications. 
+                    </p>
+                    <div class="Leadership-img">
+                        <img src="AKPsi.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">October 2025-Present</div>
+                <div class="timeline-content">
+                    <h3>Historian</h3>
+                    <div class = "subheading">Alpha Phi Omega National Service Fraternity | Santa Clara, CA</div>
+                    <p> Led the chapters multimedia and communications efforts by photographing and videographing all chapter events, organizing 
+                        and executing a professional photoshoot for 23 executive committee members, and updating 70 individual member profiles to 
+                        ensure consistent branding and accurate representation. These initiatives directly increased overall rush engagement by 18%. 
+                        Additionally, documented weekly executive board tasks and action items to support chapter operations, improve accountability, 
+                        and streamline internal communication across leadership teams.
+                    </p>
+                    <div class="Leadership-img">
+                        <img src="Aphio.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">May 2023-Present</div>
+                <div class="timeline-content">
+                    <h3>Eagle Scout</h3>
+                    <div class = "subheading">Boy Scouts of America | Pleasanton, CA</div>
+                    <p>Earned the rank of Eagle Scout, an achievement attained by approximately 6% of Scouts over an average commitment of 
+                        six or more years, requiring advancement through seven ranks, completion of 21 merit badges, sustained leadership of 
+                        younger Scouts, and execution of a community-benefiting Eagle project followed by a formal recommendation and review 
+                        process. Over six years, dedicated an average of five hours per week across 40 weeks annually to troop leadership, 
+                        mentoring, summer camps, outdoor skills instruction, and community service. Led and completed a 100+ hour Eagle project 
+                        by organizing and directing fellow Scouts to design and build custom instrument storage units for my schools band program.
+                    </p>
+                    <div class="Leadership-img">
+                        <img src="BoyScout.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">September 2025-Present</div>
+                <div class="timeline-content">
+                    <h3>TA Grader</h3>
+                    <div class="subheading">Santa Clara University | Santa Clara, CA</div>
+                    <p> Spearheaded biweekly coordination meetings with six faculty members and teaching assistants to develop and refine grading 
+                        rubrics and course policies while aligning on instructional progress and expectations. Managed the grading of 1,546 submissions 
+                        for 154 students across more than 20 assignments, maintaining accurate grade records and delivering timely, constructive feedback, 
+                        as well as providing academic support to students during office hours.
+                    </p>
+                    <div class="work-img">
+                        <img src="Santa Clara.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">July 2025-September 2025</div>
+                <div class="timeline-content">
+                    <h3>Operations Intern</h3>
+                    <div class="subheading">Tech Biz Inc. | San Jose, CA</div>
+                    <p>Upgraded firmware on over 60 computer switches and 30 hard drives to ensure reliable communication between computers, printers, and servers, 
+                        and assembled more than 10 computer racks to strengthen the companys IT infrastructure. Supported administrative operations by organizing hundreds 
+                        of invoices, maintaining detailed financial records, generating packing slips and invoices, and performing quality checks on critical documents. 
+                        Additionally, developed and designed a company website using Squarespace to enhance the companys online presence and streamline client access to information.
+                    </p>
+                    <div class="work-img">
+                        <img src="Techbiz.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">February 2024 - September 2025</div>
+                <div class="timeline-content">
+                    <h3>Retail Sales Associate</h3>
+                    <div class="subheading">Zwilling J.A. Henckels | Livermore, CA</div>
+                    <p>Provided personalized customer service to over 100 customers by recommending products, processing transactions, and translating for Mandarin-speaking customers, 
+                        contributing to an 8% increase in monthly store sales. Managed inventory operations by labeling and categorizing thousands of SKUs to improve item accessibility 
+                        and reduce retrieval time. Additionally, trained four new team members on sales techniques and product knowledge to strengthen overall team performance and consistency.
+                    </p>
+                </div>
+                <div class="work-img">
+                        <img src="Zwilling.png" alt="">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="honors" class="section">
+        <div>
+            <h2>Honors & Awards</h2>
+            <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                    <h3>Adobe Hackathon Winner</h3>
+                    <div class="subheading">Santa Clara University AI COllaborate</div>
+                    <p>Received 2nd for Best Overall Project
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                    <h3>Santa Clara University Robot Show Winner</h3>
+                    <div class="subheading">Santa Clara University Engineering</div>
+                    <p>Received 1st place for most creative and innovative project.
+                    </p>
+                </div>
+            </div>
+            <!--
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>Solo Pianist Carnegie Hall Performer</h3>
+                    <div class="subheading">American Protege Music Competition</div>
+                    <p>Earned an Honorable Mention distinction and was selected to perform a 
+                        contemporary repertoire piece at Carnegie Hall, recognizing advanced musical proficiency and competitive performance excellence.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>State & Branch Honor</h3>
+                    <div class="subheading">Music Teacher's Association of California</div>
+                    <p>Completed ten years of advanced piano training, earning the MTAC Advanced Level 10 Certificate with State 
+                        and Branch Honors and an invitation to perform at the State Convention.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>Presidential Volunteer Service Award</h3>
+                    <div class="subheading">Global Leadership Initiatives For Youth</div>
+                    <p>Received the Presidential Volunteer Service Award in recognition of sustained community service and impact.</p>
+                </div>
+            </div>
+        </div>-->
+        </div>
+    </section>
+
+    <section id="affiliations" class="section">
+        <h2>Clubs & Affiliations</h2>
+        <div class="two-column">
+            <div>
+                <h3>SCU Bronco Racing</h3>
+                <p>Formula SAE club at Santa Clara University. Building and designing your own car for racing competitions.</p>
+                <h3>SCU AI Collaborate</h3>
+                <p>AI Club at Santa Clara University that discusses AI in the real-world and holds hackathons and projects.</p>
+            </div>
+            <div>
+                <h3>Alpha Phi Omega</h3>
+                <p>Professional Fraternity known to be centered around its three core values: Leadership, Friendship, and Service.</p>
+                <h3>Asian Pacific Student Union (APSU)</h3>
+                <p>Asian Club at Santa Clara University where diverse people get to share their different ethnic backgrounds.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="section">
+        <h2>Hobbies</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Piano player</h3>
+                    <p>Completed ten years of advanced piano training, earning the MTAC Advanced Level 10 Certificate with State 
+                        and Branch Honors and an invitation to perform at the State Convention. Earned an Honorable Mention distinction and was selected to perform a 
+                        contemporary repertoire piece at Carnegie Hall, recognizing advanced musical proficiency and competitive performance excellence.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Basketball player</h3>
+                    <p>Played basketball for 10 years participating in youth leagues and playing intramural basketball during college.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>I'll be more than happy to connect!</p>
+        <div class="contact-social-icons">
+            <a href="mailto:justinwshao@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>justinwshao@gmail.com</span>
+            </a>
+            <a href="tel:9256232773">
+                <i class="fa-solid fa-phone"></i>
+                <span>(925)-623-2773</span>
+            </a>
+            <a href="https://www.linkedin.com/in/justinwshao" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>linkedin.com/in/justinwshao</span>
+            </a>
+        </div>
+    </section>
+
+    <script>
+        // Show/hide sections based on active tab
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.navbar a');
+        const homeSection = document.querySelector('#home');
+
+        function showSection(sectionId) {
+            // Hide all sections
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Show the selected section
+            const targetSection = document.querySelector(sectionId);
+            if (targetSection) {
+                targetSection.classList.add('active');
+            }
+
+            // Update active nav link
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === sectionId) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Handle navbar clicks
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                showSection(targetId);
+                // Update URL hash
+                window.history.pushState(null, null, targetId);
+            });
+        });
+
+        // Handle logo click
+        document.querySelector('.logo').addEventListener('click', function (e) {
+            e.preventDefault();
+            showSection('#home');
+            window.history.pushState(null, null, '#home');
+        });
+
+        // Show home section by default
+        window.addEventListener('load', function() {
+            const hash = window.location.hash || '#home';
+            showSection(hash);
+        });
+
+        // Handle browser back/forward buttons
+        window.addEventListener('popstate', function() {
+            const hash = window.location.hash || '#home';
+            showSection(hash);
+        });
+
+        // Hamburger Menu Toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const navbar = document.getElementById('navbar');
+
+        menuToggle.addEventListener('click', function() {
+            menuToggle.classList.toggle('active');
+            navbar.classList.toggle('active');
+        });
+
+        // Close menu when a nav link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                menuToggle.classList.remove('active');
+                navbar.classList.remove('active');
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const isClickInsideNav = navbar.contains(event.target);
+            const isClickOnToggle = menuToggle.contains(event.target);
+            
+            if (!isClickInsideNav && !isClickOnToggle && navbar.classList.contains('active')) {
+                menuToggle.classList.remove('active');
+                navbar.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+
+</html>
+
